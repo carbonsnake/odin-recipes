@@ -1,0 +1,102 @@
+    html {
+    box-sizing: border-box;
+    }
+
+    *,
+    *::before,
+    *::after {
+    box-sizing: inherit;
+    outline: 1px solid rgba(255, 2, 2, 0);
+    }
+
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+
+    h1 {
+        margin: 0 auto 30px;
+        text-align: center;
+        text-shadow: 2px 2px rgba(233, 87, 25, 0.422);
+        font-size: 55px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        color: rgb(181, 11, 11);
+    }
+
+    .increase-h-width {
+        width: 1000px;
+    }
+
+    .description,
+    .ingredients,
+    .directions {
+        margin: auto 3px;
+        padding: 2px 120px;
+    }
+    
+    .directions li {
+        padding: 5px;
+        margin: 8px 0;
+    }
+
+    .ingredients li {
+        margin: 8px 0px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    
+    /* homepage */
+    #site-title {
+        font-size: 68px;
+        margin: 30px auto;
+    }
+
+    #recipes-list { 
+        width: 900px;
+        margin: 10px auto;
+    }
+
+    #recipes-list li {
+        padding: 5px;
+        margin: 15px 0;
+
+    }
+
+    #recipes-list a {
+        color: rgb(152, 6, 6);
+    }
+
+    #recipes-list a:hover {
+        color: red;
+        font-weight: bold;
+    }
+
+    /* on individual recipes page */
+    button#home {
+        border: 1px solid rgba(0, 0, 0, 0.226);
+        border-radius: 6px;
+        padding: 2px 30px;
+        font-size: 18px;
+    }
+    
+    div.main {
+        text-align: center;
+    }
+
+    .main img {
+        width: 800px;
+        height: auto;
+    }
+
+    .main .attribution {
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    /* color, background color, typography properties, etc */
+
